@@ -1,9 +1,9 @@
 #include <Arduino.h>
-
-#define VERSION "0.0.0"
+#include <settings.h>
 
 void setup() {
   // put your setup code here, to run once:
+  Settings::initSettings();
 }
 
 void loop() {
